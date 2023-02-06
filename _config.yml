@@ -4,13 +4,13 @@ hometitle: Mehran's Blog About Computers
 description: >
   Mehran Zand blogging about programming, .net core, python, project management and startup; at least one new post every week.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://mehranzand.com" # the base hostname & protocol for your site
+url: "https://mehranzand.github.io" # the base hostname & protocol for your site
 timezone: Asia/Tehran
 author:
   fullname: Mehran Zand
   github: mehranzand
   linkedin: mehranzand
-  email: blog@mehranzand.com
+  email: mehran.zand@gmail.com
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
