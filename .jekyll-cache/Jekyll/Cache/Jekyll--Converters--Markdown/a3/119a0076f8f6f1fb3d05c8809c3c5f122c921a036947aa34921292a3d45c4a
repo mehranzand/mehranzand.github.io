@@ -1,0 +1,105 @@
+I"Ñ<div>
+
+
+<h4 class="post-teaser__month">
+<strong>
+ 
+- - - - -  architecture - - - - - 
+
+</strong>
+</h4>
+<ul class="list-posts">
+
+
+<li class="post-teaser">
+	<a href="/architecture/2022/03/10/micro-frontends.html">
+		<span class="post-teaser__title">Micro frontends</span>
+		<span class="post-teaser__date">10 March 2022</span>
+		<span class="post-teaser__words">484 words</span>
+	</a>
+</li>
+
+</ul>
+
+<h4 class="post-teaser__month">
+<strong>
+ 
+- - - - -  database - - - - - 
+
+</strong>
+</h4>
+<ul class="list-posts">
+
+
+<li class="post-teaser">
+	<a href="/database/2021/08/25/transactional-replication.html">
+		<span class="post-teaser__title">Transactional Replication in Sql Server</span>
+		<span class="post-teaser__date">25 August 2021</span>
+		<span class="post-teaser__words">867 words</span>
+	</a>
+</li>
+
+</ul>
+
+<h4 class="post-teaser__month">
+<strong>
+ 
+- - - - -  orchestration - - - - - 
+
+</strong>
+</h4>
+<ul class="list-posts">
+
+
+<li class="post-teaser">
+	<a href="/orchestration/2020/12/03/moving-to-kubernetes.html">
+		<span class="post-teaser__title">Moving to Kubernetes</span>
+		<span class="post-teaser__date">03 December 2020</span>
+		<span class="post-teaser__words">437 words</span>
+	</a>
+</li>
+
+</ul>
+
+<h4 class="post-teaser__month">
+<strong>
+ 
+- - - - -  framework - - - - - 
+
+</strong>
+</h4>
+<ul class="list-posts">
+
+
+<li class="post-teaser">
+	<a href="/framework/2020/11/23/electron-framework.html">
+		<span class="post-teaser__title">Electron Framework</span>
+		<span class="post-teaser__date">23 November 2020</span>
+		<span class="post-teaser__words">343 words</span>
+	</a>
+</li>
+
+</ul>
+
+<h4 class="post-teaser__month">
+<strong>
+ 
+- - - - -  general - - - - - 
+
+</strong>
+</h4>
+<ul class="list-posts">
+
+
+<li class="post-teaser">
+	<a href="/general/2020/11/18/thank-you-jekyll.html">
+		<span class="post-teaser__title">Thank you Jekyll!</span>
+		<span class="post-teaser__date">18 November 2020</span>
+		<span class="post-teaser__words">171 words</span>
+	</a>
+</li>
+
+</ul>
+
+</div>
+:ET

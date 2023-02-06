@@ -1,0 +1,26 @@
+# Site settings
+title: Mehran Zand
+hometitle: Mehran's Blog About Computers
+description: >
+  Mehran Zand blogging about programming, .net core, python, project management and startup; at least one new post every week.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://mehranzand.com" # the base hostname & protocol for your site
+timezone: Asia/Tehran
+author:
+  fullname: Mehran Zand
+  github: mehranzand
+  linkedin: mehranzand
+  email: blog@mehranzand.com
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: mehranzand
+
+# Syntax highlighting
+highlightstyle: 'agate'
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Build settings
+highlighter: null
+markdown: kramdown
