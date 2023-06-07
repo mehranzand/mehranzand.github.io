@@ -11,7 +11,7 @@ priority: 0.9
 
 <br/>
 Latest Blog Posts
-{% for post in site.posts %}
+{% for post in site.posts limit: 3 %}
 {% assign wordCount = post.content | number_of_words %}
 <a href="{{ post.url | prepend: site.baseurl }}">
 	<span class="post-teaser__title">{{ post.title }} {% if forloop.first %}<strong class="blink">New</strong>{% endif %}</span>
@@ -19,4 +19,3 @@ Latest Blog Posts
 	<span class="post-teaser__words">{{ wordCount }} words</span>
 </a>
 {% endfor %}
-
