@@ -15,7 +15,7 @@ Authentication is a crucial part of securing API endpoints, ensuring that only a
 JSON Web Tokens (JWT) are self-contained tokens that contain JSON-encoded information, including claims about the user and additional metadata. A JWT typically consists of three parts: the header, payload, and signature. The header contains information about the signing algorithm, the payload contains the claims, and the signature is used to verify the authenticity of the token.
 <br />
 ### Setting Up Dependencies
-To handle JWT authentication in your Go API, you'll need to import some necessary packages. The "github.com/dgrijalva/jwt-go" package provides a simple and efficient way to work with JWT in Go. You can install it using the "go get" command: go get github.com/dgrijalva/jwt-go
+To handle JWT authentication in your Go API, you'll need to import some necessary packages. The [github.com/dgrijalva/jwt-go] package provides a simple and efficient way to work with JWT in Go. You can install it using the "go get" command: go get [github.com/dgrijalva/jwt-go]
 
 ### Generating JWT Tokens
 To authenticate users and generate JWT tokens, you'll need to implement a login endpoint where users can provide their credentials. Once the credentials are verified, you can generate a JWT token using a secret key and add the necessary claims such as the user's ID or roles. The generated token can then be returned to the user for subsequent authenticated requests
@@ -34,4 +34,7 @@ JWT tokens have an expiration time, after which they become invalid. It's essent
 ## In conclusion
 Implementing custom JWT authentication handling for your Go API endpoints is a powerful way to enhance the security and integrity of your application. By understanding the basics of JWT, setting up the necessary dependencies, generating tokens, implementing middleware, and securing your API endpoints, you can ensure that only authorized users can access protected resources. Additionally, handling token expiration and refresh ensures a smooth user experience. So, go ahead and strengthen the authentication of your Go API using JWT!
 
-Remember to refer to the official documentation for the "github.com/dgrijalva/jwt-go" package and explore additional best practices for JWT authentication in Go. Happy coding and securing your API endpoints! 
+Remember to refer to the official documentation for the [github.com/dgrijalva/jwt-go] package and explore additional best practices for JWT authentication in Go. Happy coding and securing your API endpoints! 
+
+
+[github.com/dgrijalva/jwt-go]: https://github.com/dgrijalva/jwt-go
