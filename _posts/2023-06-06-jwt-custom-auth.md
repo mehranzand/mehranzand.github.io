@@ -2,7 +2,7 @@
 layout: post
 title:  "Micro frontends"
 subtitle: "Implementing JWT Custom Authentication Handling for Your Go API Endpoints"
-date: 2023-06-07 00:00:00 +000
+date: 2023-06-06 00:00:00 +000
 categories: oauth
 tags: security api go jwt auth
 comments: true
