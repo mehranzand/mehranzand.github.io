@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Custom JWT Handeling for GO API"
+title:  "Custom JWT Handeling for Go API"
 subtitle: "Implementing JWT Custom Authentication Handling for Your Go API Endpoints"
 date: 2023-05-06 00:00:00 +000
 categories: oauth
