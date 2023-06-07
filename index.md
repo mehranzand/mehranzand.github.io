@@ -10,7 +10,7 @@ priority: 0.9
 </div>
 
 <br/>
-Latest Blog Posts
+> Latest Blog Posts
 {% for post in site.posts limit: 5 %}
 {% assign wordCount = post.content | number_of_words %}
 <a href="{{ post.url | prepend: site.baseurl }}">
