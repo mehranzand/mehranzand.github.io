@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Introducing RepoFleet: An Issue-Centered CLI for Multi-Repository Git Workflows"
+title: "Introducing RepoFleet"
 date: 2026-07-06 10:00:00 -0400
 categories: [cli, git]
 tags: [git, cli, repofleet, github]
 excerpt: "RepoFleet is an issue-centered CLI that simplifies Git workflows across multiple repositories."
 ---
-# Introducing RepoFleet: An Issue-Centered CLI for Multi-Repository Git Workflows
+## Introducing RepoFleet: An Issue-Centered CLI for Multi-Repository Git Workflows
 
 Working on a single repository is usually simple.
 
