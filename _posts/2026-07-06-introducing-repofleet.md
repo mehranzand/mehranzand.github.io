@@ -8,25 +8,10 @@ excerpt: "RepoFleet is an issue-centered CLI that simplifies Git workflows acros
 ---
 ## Introducing RepoFleet: An Issue-Centered CLI for Multi-Repository Git Workflows
 
-Working on a single repository is usually simple.
-
-You create a branch, make your changes, push it, and open a pull request or merge request.
-
-But modern software projects are often not always that simple. A single feature or bug fix may touch multiple repositories: a backend service, an admin panel, a shared library, deployment scripts, or a separate API project.
-
-In that situation, the workflow becomes repetitive very quickly.
-
-You may need to open several terminal tabs, switch between many directories, create the same issue branch in multiple repositories, fetch every repo one by one, check which repo has changes, and remember which branch belongs to which issue.
-
-This is exactly the problem that RepoFleet tries to solve.
-
-RepoFleet is an issue-centered CLI tool for managing Git workflows across multiple repositories.
-
-Instead of thinking repo by repo, RepoFleet lets you think issue by issue.
-
-You create one issue context, attach the related repositories to it, and then manage the Git workflow across all of them from one place.
-
-The examples in this post are based on the current RepoFleet 0.6.0 workflow. This version makes the daily multi-repo flow smoother: `rf issue sync` is now focused on fetching remote refs, `rf issue status --go-to` can switch the selected repository to the issue branch automatically, `rf issue repo remove` handles checked-out issue branches more safely, and issue creation uses comma-separated repository selection such as `--repo service-a,service-b`.
+Working on a single repository is usually simple. You create a branch, make your changes, push it, and open a pull request or merge request.
+But modern software projects are often not always that simple. A single feature or bug fix may touch multiple repositories: a backend service, an admin panel, a shared library, deployment scripts, or a separate API project. In that situation, the workflow becomes repetitive very quickly.
+You may need to open several terminal tabs, switch between many directories, create the same issue branch in multiple repositories, fetch every repo one by one, check which repo has changes, and remember which branch belongs to which issue. This is exactly the problem that RepoFleet tries to solve.
+RepoFleet is an issue-centered CLI tool for managing Git workflows across multiple repositories. Instead of thinking repo by repo, RepoFleet lets you think issue by issue. You create one issue context, attach the related repositories to it, and then manage the Git workflow across all of them from one place.
 
 ## The Story Behind RepoFleet
 
