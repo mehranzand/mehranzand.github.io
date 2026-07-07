@@ -5,6 +5,9 @@ date: 2026-07-06 10:00:00 -0400
 categories: [cli, git]
 tags: [git, cli, repofleet, github]
 excerpt: "RepoFleet is an issue-centered CLI that simplifies Git workflows across multiple repositories."
+comments: true
+author: "Mehran Zand"
+meta: "git cli terminal github gitlab repofleet"
 ---
 ## Introducing RepoFleet: An Issue-Centered CLI for Multi-Repository Git Workflows
 
